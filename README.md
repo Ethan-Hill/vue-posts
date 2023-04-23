@@ -1,46 +1,70 @@
-# vue-posts
+Vue Posts
+=========
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue Posts is a web application built with Vue 3, Vue Router, and Vite. The application pulls data from [https://dummyjson.com/](https://dummyjson.com/) to show different article posts.
 
-## Recommended IDE Setup
+Features
+--------
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+*   Fetches data from [https://dummyjson.com/](https://dummyjson.com/) to display different article posts
+*   Uses Vue Router to navigate between different pages
+*   Built with Vite for faster development and build times
 
-## Type Support for `.vue` Imports in TS
+Technologies Used
+-----------------
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+*   Vue 3
+*   Vue Router
+*   Vite
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Getting Started
+---------------
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Prerequisites
 
-## Customize configuration
+*   Node.js
+*   npm
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Installation
 
-## Project Setup
+1.  Clone the repository:
 
-```sh
-npm install
-```
+`git clone https://github.com/Ethan-Hill/vue-posts.git`
 
-### Compile and Hot-Reload for Development
+2.  Install dependencies:
 
-```sh
-npm run dev
-```
+`npm install`
 
-### Type-Check, Compile and Minify for Production
+### Usage
 
-```sh
-npm run build
-```
+1.  Start the development server:
 
-### Lint with [ESLint](https://eslint.org/)
+`npm run dev`
 
-```sh
-npm run lint
-```
+2.  Open the application in your browser:
+
+`http://localhost:3000`
+
+### Building for Production
+
+To build the application for production, run the following command:
+
+`npm run build`
+
+The built files will be located in the `dist` folder.
+
+Contributing
+------------
+
+Contributions to Vue Posts are welcome. To contribute, follow these steps:
+
+1.  Fork the repository
+2.  Create a new branch
+3.  Make your changes and commit them
+4.  Push your changes to your forked repository
+5.  Create a pull request
+
+License
+-------
+
+Vue Posts is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
